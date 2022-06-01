@@ -55,7 +55,7 @@ def _basic_latin_letters(dit, dah) -> dict:
     return morse_dict
 
 
-class morse_code:
+class MorseCode:
 
     def __init__(self, dit='.', dah='-', **space):
         self.dit = dit

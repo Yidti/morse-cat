@@ -1,4 +1,4 @@
-from morse_code import *
+from morse_code import MorseCode
 import os
 
 
@@ -10,7 +10,7 @@ def morse_cat():
     dit = '.'
     dah = '-'
     space = {'btw_dits_n_dahs': "", 'btw_letters': " ", 'btw_words': " / "}
-    morse = morse_code(dit, dah, **space)
+    morse = MorseCode(dit, dah, **space)
 
     while True:
         print('-------------- Start --------------')
