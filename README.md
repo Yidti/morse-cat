@@ -10,7 +10,7 @@ python3.10 main.py
 ```
 
 ## Examples for encoding
-```sh
+```console
 -------------- Start --------------
 Type encode(0) or decode(1) for Morse code? blank to quit. (0/1): 0
 -------------- Encode --------------
@@ -23,7 +23,7 @@ Enter blank to try again...
 ```
 
 ## Examples for decoding
-```sh
+```console
 -------------- Start --------------
 Type encode(0) or decode(1) for Morse code? blank to quit. (0/1): 1
 -------------- Decode --------------
