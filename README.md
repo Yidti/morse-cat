@@ -4,7 +4,7 @@ and basic Latin letters(A through Z) and Arabic numbers.
 
 ## Run the script
 ```sh
-git clone https://github.com/Yidti/morse_cat.git
+git clone https://github.com/Yidti/morse-cat.git
 cd morse_cat
 python3.10 main.py
 ```
